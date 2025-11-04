@@ -5,7 +5,7 @@ const categories = ["Все", "Мясные", "Вегетарианские", "�
 const Categories = () => {
   const { selectedCategory, setCategory } = useStore();
   return (
-    <ul className="scrollbar-hide flex gap-2 overflow-auto rounded-3xl bg-emerald-100 p-2">
+    <ul className="scrollbar-hide flex gap-4 overflow-auto rounded-3xl bg-emerald-100 p-2">
       {categories.map((cat, i) => (
         <li
           key={i}
